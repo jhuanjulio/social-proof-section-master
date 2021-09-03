@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    min-width: 375px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Spartan';
+    background: url(images/background.png) no-repeat;
+    background-size: cover;
+}
+
+.flex-container1 {
+    padding-top: 50px;
+    padding-left: 145px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container2 {
+    padding-left: 145px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-box1 {
+    width: 610px;
+}
+
+.flex-box1 li {
+    color: hsl(300, 43%, 22%);
+    font-size: 55px;
+}
+
+.flex-box1 p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex-box2 {
+    padding-top: 40px;
+    color: hsl(300, 43%, 22%);
+}
+
+.first-rating {
+    width: 375px;
+    display: flex;
+    border: 0;
+    border-radius: 10px;
+    justify-content: left;
+    background-color: hsla(300, 24%, 96%);
+    margin-bottom: 20px;
+    margin-left: 45px;
+}
+
+.second-rating {
+    width: 400px;
+    display: flex;
+    border: 0;
+    border-radius: 10px;
+    justify-content: left;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.third-rating {
+    width: 375px;
+    display: flex;
+    border: 0;
+    border-radius: 10px;
+    justify-content: left;
+    background-color: hsl(300, 24%, 96%);
+    margin-left: 125px;
+    
+}
+
+.review, .report, .besttech {
+    padding-left: 85px;
+    background: url(images/icon-star.svg);
+    background-repeat: repeat-x, repeat-x;
+    background-position: center;
+}
+
+.data1, .data2, .data3 {
+    margin-left: 30px;
+    padding: 15px 10px;
+}
+
+.flex-box3 {
+    width: 350px;
+    border: 0;
+    border-radius: 10px;
+    background: hsl(300, 43%, 22%);
+    color: white;
+}
+
+.flex-box4 {
+    width: 350px;
+    border: 0;
+    border-radius: 10px;
+    background: hsl(300, 43%, 22%);
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.flex-box5 {
+    width: 350px;
+    border: 0;
+    border-radius: 10px;
+    background: hsl(300, 43%, 22%);
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.profile1, .profile2, .profile3 {
+    display: flex;
+}
+
+.pic1 {
+    background: url(images/image-colton.jpg);
+    background-size: cover;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.pic2 {
+    background: url(images/image-irene.jpg);
+    background-size: cover;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.pic3 {
+    background: url(images/image-anne.jpg);
+    background-size: cover;
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.flex-container2 li {
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.3em;
+}
+
+span {
+    color: hsl(333, 80%, 67%);
+}
+
+.flex-container2 p {
+    padding: 40px 20px;
+    color: hsl(300, 24%, 96%);
+    line-height: 1.3em;
+}
+
+@media all and (max-width: 1000px) {
+    .flex-container1 {
+        background: url(images/bg-pattern-top-mobile.svg) no-repeat;
+        background-size: cover;
+
+    }
+
+    .flex-container2 {
+        background: url(images/bg-pattern-bottom-mobile.svg) no-repeat;
+        background-size: cover;
+    }
+
+    .flex-box1 {
+        width: 65%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-box2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-rating {
+        width: 300px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .second-rating {
+        width: 300px;
+        margin: 10px  0 ;
+        padding: 0;
+    }
+
+    .third-rating {
+        width: 300px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .flex-box3 {
+        width: 300px;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .flex-box4 {
+        width: 300px;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .flex-box5 {
+        width: 300px;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+}
