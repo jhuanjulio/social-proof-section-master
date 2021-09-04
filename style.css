@@ -9,7 +9,6 @@
     max-width: 100%;
     min-width: 375px;
     margin: 0 auto;
-    width: 100%;
     font-family: 'Spartan';
     background: url(images/background.png) no-repeat;
     background-size: cover;
@@ -17,13 +16,13 @@
 
 .flex-container1 {
     padding-top: 50px;
-    padding-left: 145px;
+    padding-left: 100px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .flex-container2 {
-    padding-left: 145px;
+    padding-left: 100px;
     display: flex;
     flex-wrap: wrap;
 }
